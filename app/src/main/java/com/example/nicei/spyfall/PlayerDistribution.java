@@ -70,10 +70,16 @@ public class PlayerDistribution extends AppCompatActivity {
         countDown.setVisibility(View.VISIBLE);
     }
     public void showRole() {
+        button.setVisibility(View.VISIBLE);
+        role.setVisibility(View.VISIBLE);
+        currentPlayer.setVisibility(View.VISIBLE);
+        envelope.setVisibility(View.VISIBLE);
+
         prompt.setVisibility(View.INVISIBLE);
+        countDown.setVisibility(View.INVISIBLE);
     }
     public void updateScreen() {
-        currentPlayer.setText("" + currentPlayerNum);
+        currentPlayer.setText(currentPlayerNum);
     }
 
     public void abort(View v) {
