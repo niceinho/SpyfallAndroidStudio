@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen">
+
+    <TextView
+        android:id="@+id/playerDisplay"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerMore" />
+
+    <TextView
+        android:id="@+id/spyDisplay"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spyMore" />
+
+    <Button
+        android:id="@+id/playerLess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lessPlayer"
+        android:text="-"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/playerMore"
+        app:layout_constraintTop_toTopOf="@+id/playerMore" />
+
+    <Button
+        android:id="@+id/playerMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="100dp"
+        android:onClick="morePlayer"
+        android:text="+"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prompt" />
+
+    <Button
+        android:id="@+id/spyLess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lessSpy"
+        android:text="-"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/spyMore"
+        app:layout_constraintTop_toTopOf="@+id/spyMore" />
+
+    <Button
+        android:id="@+id/spyMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="100dp"
+        android:onClick="moreSpy"
+        android:text="+"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerDisplay" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="startPlayer"
+        android:text="Start"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/init_prompt"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
