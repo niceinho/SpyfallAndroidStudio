@@ -9,12 +9,16 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.*;
+
 public class PlayerDistribution extends AppCompatActivity {
 
     TextView role, currentPlayer, prompt, countDown;
     Button button;
     ImageView envelope;
-    int player, spy, currentPlayerNum, currentAssignedSpyCount;
+    int player, spy, currentPlayerNum;
+    String[] locations;
+    String location;
 
 
     @Override
@@ -31,6 +35,8 @@ public class PlayerDistribution extends AppCompatActivity {
         countDown = findViewById(R.id.countdown);
         currentPlayer = findViewById(R.id.playerNumber);
         envelope = findViewById(R.id.envelope);
+        locations = getResources().getStringArray(R.array.locations);
+        location = locations[new Random().nextInt(locations.length)];
 
         currentPlayerNum = 1;
 
@@ -52,12 +58,19 @@ public class PlayerDistribution extends AppCompatActivity {
         });
     }
 
-    public void nextRole() {
+    public void nextRole(View v) {
+        currentPlayerNum++;
         if (currentPlayerNum >= player) {
-            //change to last role
-            showRole();
+            finish();
         }
         hideRole();
+        prepareRole();
+        showRole();
+    }
+
+    public void prepareRole() {
+
+        updateScreen();
     }
 
     public void hideRole() {
@@ -80,10 +93,5 @@ public class PlayerDistribution extends AppCompatActivity {
     }
     public void updateScreen() {
         currentPlayer.setText(currentPlayerNum);
-    }
-
-    public void abort(View v) {
-        finish();
-
     }
 }
