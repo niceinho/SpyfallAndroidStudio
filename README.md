@@ -1,4 +1,4 @@
-# Spyfall! (0.1)
+# Spyfall!
 ## Joseph Chang & Francis Adams
 
 Spyfall is a fun game for 3 to infinite (preferably < 12) people. There are about *5 rounds* (more for bigger parties) that take about *5 minutes* (more for bigger parties) each. There is *one spy* per round that **tries to figure out the location** and everyone else **tries to figure out who the spy is**. Score is distributed at the end of the game like so:
