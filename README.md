@@ -24,7 +24,7 @@ Francis:
 ## Instructions:
 On the first screen, you will be able to select the amount of players (default 3) and the amount of spies (though we recommend only 1). Press start to begin the game.
 
-Pressing start will start a new screen that will assign roles to players. Drag your role out of the envelope and keep it hidden from other players; memorize the role and location. Press 'Got It' and pass the phone to the next person. Repeat until last player receives role.
+Pressing start will start a new screen that will assign roles to players. Drag your role out of the envelope and keep it hidden from other players; memorize the role and location. Press 'Got It' and pass the phone to the next person. Repeat until last player receives a role.
 
 Once everyone receives a role, the location screen will now show up, allowing all players to see all possible locations. Press the start game button to start a timer for the round. You can exit the game at anytime using the exit button.
 Have fun!
