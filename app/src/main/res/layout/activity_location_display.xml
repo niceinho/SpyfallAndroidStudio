@@ -12,7 +12,7 @@
         android:layout_height="64dp"
         android:background="@android:color/holo_blue_light"
         android:onClick="abort"
-        android:text="Finish Game"
+        android:text="@string/finish"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="35sp"

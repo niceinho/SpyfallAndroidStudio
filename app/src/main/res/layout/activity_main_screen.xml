@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainScreen">
 
     <TextView
@@ -34,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="lessPlayer"
-        android:text="-"
+        android:text="@string/minus"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/playerMore"
         app:layout_constraintTop_toTopOf="@+id/playerMore" />
@@ -46,7 +47,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="100dp"
         android:onClick="morePlayer"
-        android:text="+"
+        android:text="@string/plus"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/prompt" />
@@ -56,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="lessSpy"
-        android:text="-"
+        android:text="@string/minus"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/spyMore"
         app:layout_constraintTop_toTopOf="@+id/spyMore" />
@@ -68,7 +69,7 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="100dp"
         android:onClick="moreSpy"
-        android:text="+"
+        android:text="@string/plus"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/playerDisplay" />
@@ -79,7 +80,7 @@
         android:layout_height="70dp"
         android:background="@android:color/holo_blue_light"
         android:onClick="startPlayer"
-        android:text="Start"
+        android:text="@string/start"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="44sp"
