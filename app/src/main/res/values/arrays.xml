@@ -21,7 +21,7 @@
         <item>Space Station</item>
         <item>Submarine</item>
     </string-array>
-    <string-array name ="beachRoles">
+    <string-array name ="beach">
         <item>Server</item>
         <item>Surfer</item>
         <item>Photographer</item>
@@ -29,7 +29,7 @@
         <item>Tourist</item>
         <item>Rescuer</item>
     </string-array>
-    <string-array name = "theatreRoles">
+    <string-array name = "broadwaytheater">
         <item>Ticket Taker</item>
         <item>Cashier</item>
         <item>Director</item>
@@ -37,7 +37,7 @@
         <item>Equipment Manager</item>
         <item>Audience Member</item>
     </string-array>
-    <string-array name = "casinoRoles">
+    <string-array name = "casino">
         <item>Bartender</item>
         <item>Chief of Security</item>
         <item>Bouncer</item>
@@ -45,7 +45,7 @@
         <item>Dealer</item>
         <item>Player</item>
     </string-array>
-    <string-array name = "circusRoles">
+    <string-array name = "circustent">
         <item>Acrobat</item>
         <item>Animal Handler</item>
         <item>Magician</item>
@@ -54,7 +54,7 @@
         <item>Juggler</item>
         <item>Visitor</item>
     </string-array>
-    <string-array name = "bankRoles">
+    <string-array name = "bank">
         <item>Armoured Vehicle Driver</item>
         <item>Manager</item>
         <item>Consultant</item>
@@ -63,7 +63,7 @@
         <item>Cashier</item>
         <item>Client</item>
     </string-array>
-    <string-array name = "cathedralRoles">
+    <string-array name = "cathedral">
         <item>Priest</item>
         <item>Beggar</item>
         <item>Sinner</item>
@@ -71,7 +71,7 @@
         <item>Donor</item>
         <item>Choir Boy</item>
     </string-array>
-    <string-array name = "officeRoles">
+    <string-array name = "office">
         <item>Performing Artist</item>
         <item>Manager</item>
         <item>Unwanted Guest</item>
@@ -80,7 +80,7 @@
         <item>Book Keeper</item>
         <item>Accountant</item>
     </string-array>
-    <string-array name = "armyRoles">
+    <string-array name = "crusadersarmy">
         <item>Monk</item>
         <item>Prisoner of War</item>
         <item>Servant</item>
@@ -88,7 +88,7 @@
         <item>Archer</item>
         <item>Knight</item>
     </string-array>
-    <string-array name = "hospitalRoles">
+    <string-array name = "hospital">
         <item>Nurse</item>
         <item>Doctor</item>
         <item>Anesthetist</item>
@@ -97,7 +97,7 @@
         <item>Surgeon</item>
         <item>Patient</item>
     </string-array>
-    <string-array name ="hotelRoles">
+    <string-array name ="hotel">
         <item>Porter</item>
         <item>Security Agent</item>
         <item>Groom</item>
@@ -106,7 +106,7 @@
         <item>Maid</item>
         <item>Barman</item>
     </string-array>
-    <string-array name = "militaryRoles">
+    <string-array name = "militarybase">
         <item>Deserter</item>
         <item>Colonel</item>
         <item>Doctor</item>
@@ -115,7 +115,7 @@
         <item>Tank Engineer</item>
         <item>Soldier</item>
     </string-array>
-    <string-array name = "trainRoles">
+    <string-array name = "train">
         <item>Mechanic</item>
         <item>Border Police</item>
         <item>Train Conductor</item>
@@ -123,7 +123,7 @@
         <item>Chauffeur</item>
         <item>Passenger</item>
     </string-array>
-    <string-array name = "pirateRoles">
+    <string-array name = "pirateship">
         <item>Cook</item>
         <item>Slave</item>
         <item>Gunner</item>
@@ -132,7 +132,7 @@
         <item>Captain</item>
         <item>Marine</item>
     </string-array>
-    <string-array  name = "polarRoles">
+    <string-array  name = "polarstation">
         <item>Doctor</item>
         <item>Expedition Leader</item>
         <item> Biologist</item>
@@ -141,7 +141,7 @@
         <item>Meteorologist</item>
         <item>Geologist</item>
     </string-array>
-    <string-array name = "policeRoles">
+    <string-array name = "policestation">
         <item>Detective</item>
         <item>Lawyer</item>
         <item>Journalist</item>
@@ -150,7 +150,7 @@
         <item>Criminal</item>
         <item>Policeman</item>
     </string-array>
-    <string-array name = "restaurantRoles">
+    <string-array name = "restaurant">
         <item>Musician</item>
         <item>Bouncer</item>
         <item>Hostess</item>
@@ -159,7 +159,7 @@
         <item>Host</item>
         <item>Client</item>
     </string-array>
-    <string-array name="gasRoles">
+    <string-array name="gasstation">
         <item>Manager</item>
         <item>Tire Specialist</item>
         <item>Biker</item>
@@ -168,7 +168,7 @@
         <item>Electrician</item>
         <item>Mechanic</item>
     </string-array>
-    <string-array name = "spaceRoles">
+    <string-array name = "spacestation">
         <item>Engineer</item>
         <item>Alien</item>
         <item>Pilot</item>
@@ -177,7 +177,7 @@
         <item>Doctor</item>
         <item>Space Tourist</item>
     </string-array>
-    <string-array name = "submarineRoles">
+    <string-array name = "submarine">
         <item>Cook</item>
         <item>Commander</item>
         <item>Sonar Technician</item>

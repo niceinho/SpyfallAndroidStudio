@@ -3,10 +3,11 @@
     <string name="init_prompt">Select the amount of players</string>
     <string name="wait">Pass the phone to the next player</string>
     <string name="got_it">Got It</string>
-    <string name="finish">Finish</string>
+    <string name="finish">Finish Game</string>
     <string name="start">Start</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
+    <string name="timer">Click here to start timer</string>
 
     <string name="envelope_description">To hide the players role</string>
 </resources>

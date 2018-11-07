@@ -66,7 +66,7 @@ public class MainScreen extends AppCompatActivity {
         if (player <= 3) {
             return;
         }
-        if (player < spy) {
+        if (player <= spy) {
             return;
         }
         player -= 1;
