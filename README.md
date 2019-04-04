@@ -1,6 +1,9 @@
 # Spyfall!
 ## Joseph Chang & Francis Adams
 
+This repository has all of the files needed in Android Studio to run as a project. Simply open the main folder in Android Studio.
+
+## Rules:
 Spyfall is a fun game for 3 to infinite (preferably < 12) people. There are about *5 rounds* (more for bigger parties) that take about *5 minutes* (more for bigger parties) each. There is *one spy* per round that **tries to figure out the location** and everyone else **tries to figure out who the spy is**. Score is distributed at the end of the game like so:
 
 - The spy earns 2 points if no one accuses him / her of being the spy
